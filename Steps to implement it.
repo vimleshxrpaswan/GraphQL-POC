@@ -1,7 +1,7 @@
 Steps to add graphQl in your springboot project: -
 
 Step 1: Set up a Spring Boot project
-Step 2: Add dependencies of fraphQL i.e. <dependency>
+Step 2: Add dependencies of graphQL i.e. <dependency>
                                          			<groupId>org.springframework.graphql</groupId>
                                          			<artifactId>spring-graphql-test</artifactId>
                                          			<scope>test</scope>
