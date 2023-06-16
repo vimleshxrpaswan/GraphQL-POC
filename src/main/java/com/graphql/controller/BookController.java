@@ -25,7 +25,7 @@ public class BookController {
     public Book create(@Argument BookInput book){
         Book b= new Book();
         b.setTitle(book.getTitle());
-        b.setDescription(b.getDescription());
+        b.setDescription(book.getDescription());
         b.setPrice(book.getPrice());
         b.setAuthor(book.getAuthor());
         b.setNoOfPages(book.getNoOfPages());
